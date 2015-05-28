@@ -1,0 +1,10 @@
+<item>
+<name>CAPSLOCKTOCMDSHIFTOPTION</name>
+<appendix>remap caps lock to comand shift option</append>
+<identifier>private.swap_capslock</identifier>
+<autogen>
+  --KeyToKey--
+  KeyCode::PC_APPLICATION,
+  KeyCode::OPTION_L, ModifierFlag::COMMAND_L,ModifierFlag::SHIFT_L
+</autogen>
+</item>
